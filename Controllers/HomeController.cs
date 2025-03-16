@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using IMEAutomationDBOperations.Models;
 using IMEAutomationDBOperations.Services;
 using System.Collections.Generic;
+using IMEAutomationDBOperations.Data;
 
 namespace IMEAutomationDBOperations.Controllers
 {
@@ -16,8 +17,13 @@ namespace IMEAutomationDBOperations.Controllers
 
         public IActionResult Index()
         {
-            List<User> users = _databaseService.GetUsersData();
-            return View(users);
+            List<Student> students = _databaseService.GetStudentsData();
+            return View(students);
+        }
+
+        public IActionResult KonyaTecnicalUnivercityIMEAutomation()
+        {
+            return View("KonyaTecnicalUnivercity-IMEAutomation");
         }
     }
 }

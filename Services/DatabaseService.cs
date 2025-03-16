@@ -243,5 +243,42 @@ namespace IMEAutomationDBOperations.Services
 
             return users;
         }
+
+        public List<Student> GetStudentsData()
+        {
+            string query = "SELECT UserID, FirstName, LastName, AcademicYear, NationalID, BirthDate, SchoolNumber, Department, PhoneNumber, Email, Address FROM Students";
+            var students = new List<Student>();
+
+            using (var connection = new SqlConnection(_repository.ConnectionString))
+            {
+                connection.Open();
+                using (var command = new SqlCommand(query, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var student = new Student
+                            {
+                                UserID = reader.GetInt32(0),
+                                FirstName = reader.GetString(1),
+                                LastName = reader.GetString(2),
+                                AcademicYear = reader.GetInt32(3),
+                                NationalID = reader.GetString(4),
+                                BirthDate = reader.GetDateTime(5).ToString("yyyy-MM-dd"),
+                                SchoolNumber = reader.GetString(6),
+                                Department = reader.GetString(7),
+                                PhoneNumber = reader.GetString(8),
+                                Email = reader.GetString(9),
+                                Address = reader.GetString(10)
+                            };
+                            students.Add(student);
+                        }
+                    }
+                }
+            }
+
+            return students;
+        }
     }
 }
