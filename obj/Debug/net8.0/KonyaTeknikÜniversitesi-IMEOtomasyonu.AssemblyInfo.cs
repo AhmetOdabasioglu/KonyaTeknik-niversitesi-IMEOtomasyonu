@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KonyaTeknikÜniversitesi-IMEOtomasyonu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+544541c3f522f7097439f3590807ab11eab30c16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7afb8f1e7ed37002ea76fc2555f919d6a0d7b3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("KonyaTeknikÜniversitesi-IMEOtomasyonu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KonyaTeknikÜniversitesi-IMEOtomasyonu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
