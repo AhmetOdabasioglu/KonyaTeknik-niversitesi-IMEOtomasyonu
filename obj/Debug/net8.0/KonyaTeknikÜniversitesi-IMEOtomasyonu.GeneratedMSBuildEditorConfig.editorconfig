@@ -26,10 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Ahmet's Monster\Desktop\KonyaTeknikÜniversitesi-IMEOtomasyonu
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ahmet's Monster/Desktop/KonyaTeknikÜniversitesi-IMEOtomasyonu/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Ahmet's Monster/Desktop/KonyaTeknikÜniversitesi-IMEOtomasyonu/Views/Account/StudentPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdHVkZW50UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ahmet's Monster/Desktop/KonyaTeknikÜniversitesi-IMEOtomasyonu/Views/Home/KonyaTecnicalUnivercity-IMEAutomation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLb255YVRlY25pY2FsVW5pdmVyY2l0eS1JTUVBdXRvbWF0aW9uLmNzaHRtbA==
+[C:/Users/Ahmet's Monster/Desktop/KonyaTeknikÜniversitesi-IMEOtomasyonu/Views/Home/aboutme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhYm91dG1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmet's Monster/Desktop/KonyaTeknikÜniversitesi-IMEOtomasyonu/Views/Home/KonyaTecnicalUnivercityIMEAutomation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLb255YVRlY25pY2FsVW5pdmVyY2l0eUlNRUF1dG9tYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmet's Monster/Desktop/KonyaTeknikÜniversitesi-IMEOtomasyonu/Views/Home/StudentLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdHVkZW50TG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmet's Monster/Desktop/KonyaTeknikÜniversitesi-IMEOtomasyonu/Views/Home/StudentPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdHVkZW50UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTUN | İşletmede Mesleki Eğitim Öğrenci</title>
+    <link rel="shortcut icon" href="~/wwwroot/img/logo_2.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="moodle, Konya Teknik Üniversitesi İşletmede Mesleki Eğitim: Siteye giriş yap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://lms.ktun.edu.tr/theme/styles.php/remui/1703591224_1/all">
+    <link rel="stylesheet" href="../../wwwroot/styles/custom/css/KTUN-StudentPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700,300italic" rel="stylesheet"
+        type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #user-action-menu {
+            display: none; /* Başlangıçta gizli */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar-top mt-3"></nav>
+    <nav class="container-fluid d-flex justify-content-start align-items-center mt-1" style="height: 75px;">
+        <div class="row">
+            <div class="col-md-12 m-5 ktun-logo">
+                <img class="rounded-circle" src="../../wwwroot/img/ktunlogo.png" alt="Logo" width="130px" height="130px">
+            </div>
+        </div>
+        <div class="navbar-options w-100 d-flex h-120">
+            <div class="primary-navigation wdm-custom-menus">
+                <nav class="moremenu navigation observed d-flex">
+                    <ul id="moremenu-67f662ab3bcfe-navbar-nav" role="menubar" class="nav more-nav navbar-nav d-flex ">
+                        <li data-key="home" class="nav-item" role="none" data-forceintomoremenu="false">
+                            <a role="menuitem" class="nav-link " href="" aria-current="true">
+                                Ana Sayfa
+                            </a>
+                        </li>
+                        <li data-key="myhome" class="nav-item" role="none" data-forceintomoremenu="false">
+                            <a role="menuitem" class="nav-link  " href="" tabindex="-1">
+                                Kontrol Paneli
+                            </a>
+                        </li>
+                        <li data-key="mycourses" class="nav-item" role="none" data-forceintomoremenu="false">
+                            <a role="menuitem" class="nav-link active" href="" tabindex="-1">
+                                Staj Defteri
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="d-flex justify-content-end align-items-center w-100">
+                <div class="dropdown show">
+                    <a href="#" role="button" id="user-menu-toggle" data-toggle="dropdown" aria-label="Kullanıcı menüsü"
+                        aria-haspopup="true" aria-controls="user-action-menu" class="btn p-0"
+                        style="background: #b52525; border-color: #b52525;">
+                        <span class="userbutton">
+                            <span class="avatars">
+                                <span class="avatar current">
+                                    <span class="userinitials size-35">AO</span>
+                                </span>
+                            </span>
+                            <i class="fa-solid fa-angle-down text-white" style="position: relative; top: -5px;"></i>
+                        </span>
+                    </a>
+                    <div id="user-action-menu" class="dropdown-menu dropdown-menu-right mt-5">
+                        <a href="" class="dropdown-item" role="menuitem"
+                            tabindex="-1">
+                            Profil
+                        </a>
+                        <a href="" class="dropdown-item"
+                            role="menuitem" tabindex="-1">
+                            Başarı notları
+                        </a>
+                        <a href="" class="dropdown-item"
+                            role="menuitem" tabindex="-1">
+                            Takvim
+                        </a>
+                        <a href="" class="dropdown-item" role="menuitem"
+                            tabindex="-1">
+                            Kişisel dosyalar
+                        </a>
+                        <a href="" class="dropdown-item" role="menuitem"
+                            tabindex="-1">
+                            Raporlar
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="" class="dropdown-item" role="menuitem"
+                            tabindex="-1">
+                            Tercihler
+                        </a>
+                        <a href="" class="dropdown-item"
+                            role="menuitem" tabindex="-1">
+                            Çıkış yap
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-start mt-5">
+                <h3><span id="welcomeMessage"></span> @ViewBag.userName 👋</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function setWelcomeMessage() {
+
+        let message = "sdsdsd";
+
+        const time = new Date().getHours();
+        console.log("Saat:", time);
+
+        if (time >= "6" && time < "12") {
+            message = "Günaydın!";
+        } else if (time >= "12" && time < "18"){
+            message = "İyi günler!";
+        } else if (time >= "18" && time < "23") {
+            message = "İyi akşamlar!";
+        } else if (time >= "23" && time < "6") {
+            message = "İyi geceler!";
+        } else {
+            console.log("Geçersiz saat formatı.");
+        }
+
+        return message;
+    }
+
+    document.getElementById("welcomeMessage").textContent = setWelcomeMessage();
+</script>
+
+<script>
+    document.querySelector('.dropdown').addEventListener('click', function () {
+        const userActionMenu = document.getElementById('user-action-menu');
+        
+        if (userActionMenu.style.display === 'block') {
+            userActionMenu.style.display = 'none';
+        } else {
+            userActionMenu.style.display = 'block';
+        }
+    });
+</script>
+
+</html>

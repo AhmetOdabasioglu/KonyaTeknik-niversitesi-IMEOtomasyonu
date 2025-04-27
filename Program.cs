@@ -4,55 +4,75 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Veritabanı bağlantısını `appsettings.json`'dan almak yerine burada doğrudan yazıyoruz
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// connectionString'in null olmadığından emin olalım
 if (string.IsNullOrEmpty(connectionString))
 {
     throw new InvalidOperationException("Connection string is not configured properly.");
 }
 
-// DBContext kaydını yapıyoruz
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Repository'yi Scoped olarak kaydediyoruz
 builder.Services.AddScoped<IRepository>(provider => new SqlRepository(connectionString));
-
-// DatabaseService ve diğer servisleri kaydediyoruz
 builder.Services.AddScoped<DatabaseService>();
 
-// MVC veya Razor Pages desteği ekliyoruz
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Geliştirme ortamı kontrolü
 if (app.Environment.IsDevelopment())
 {
-    // Geliştirme sırasında hataların ayrıntılı şekilde görüntülenmesini sağlarız
     app.UseDeveloperExceptionPage();
 }
 else
 {
-    // Üretim ortamında daha güvenli bir hata yönetimi
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 
-// HTTPS yönlendirmesi ve statik dosyalar
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-// Routing ve authorization middleware'lerini aktif ediyoruz
 app.UseRouting();
+
+app.UseSession();
 app.UseAuthorization();
 
-// Varsayılan route'u ayarlıyoruz
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=KonyaTecnicalUnivercityIMEAutomation}/{id?}");
 
-// Uygulama çalıştırılıyor
+app.MapControllerRoute(
+    name: "studentLogin",
+    pattern: "StudentLogin",
+    defaults: new { controller = "Home", action = "StudentLogin" });
+
+app.MapControllerRoute(
+    name: "studentPage",
+    pattern: "Account/StudentPage",
+    defaults: new { controller = "Home", action = "StudentPage" });
+
+app.MapControllerRoute(
+    name: "aboutme",
+    pattern: "aboutme",
+    defaults: new { controller = "Home", action = "aboutme" });
+
+app.MapControllerRoute(
+    name: "isletmedeMeslekiEgitimSozlesmesi",
+    pattern: "IsletmedeMeslekiEgitimSozlesmesi",
+    defaults: new { controller = "Home", action = "IsletmedeMeslekiEgitimSozlesmesi" });
+
+app.MapControllerRoute(
+    name: "generateIMEBasvuruFormu",
+    pattern: "Home/GenerateIMEBasvuruFormu",
+    defaults: new { controller = "Home", action = "GenerateIMEBasvuruFormu" });
+
 app.Run();

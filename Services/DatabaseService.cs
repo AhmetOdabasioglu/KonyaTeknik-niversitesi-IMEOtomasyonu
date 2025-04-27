@@ -17,9 +17,9 @@ namespace IMEAutomationDBOperations.Services
         public void CreateDatabase()
         {
             string createDbQuery = @"
-                IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'InternshipDB') 
+                IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'InternshipDB1') 
                 BEGIN
-                    CREATE DATABASE InternshipDB;
+                    CREATE DATABASE InternshipDB1;
                 END";
             _repository.ExecuteQuery(createDbQuery);
         }
@@ -125,6 +125,7 @@ namespace IMEAutomationDBOperations.Services
                     SupervisorID INT IDENTITY(1,1) PRIMARY KEY,
                     UserID INT UNIQUE NOT NULL,
                     CompanyID INT FOREIGN KEY REFERENCES Company(CompanyID) ON DELETE CASCADE,
+					StudentID INT FOREIGN KEY REFERENCES Students(StudentID)  ON DELETE NO ACTION,
                     FirstName NVARCHAR(50) NOT NULL,
                     LastName NVARCHAR(50) NOT NULL,
                     ContactPhone NVARCHAR(15),
@@ -164,8 +165,8 @@ namespace IMEAutomationDBOperations.Services
             BEGIN
                 CREATE TABLE InternshipDetails (
                     InternshipID INT IDENTITY(1,1) PRIMARY KEY,
-                    StudentID INT FOREIGN KEY REFERENCES Students(StudentID) ON DELETE CASCADE,
-                    CompanyID INT FOREIGN KEY REFERENCES Company(CompanyID) ON DELETE CASCADE,
+                    StudentID INT FOREIGN KEY REFERENCES Students(StudentID)  ON DELETE NO ACTION,
+                    CompanyID INT FOREIGN KEY REFERENCES Company(CompanyID)  ON DELETE NO ACTION,
                     SupervisorID INT FOREIGN KEY REFERENCES InternshipSupervisors(SupervisorID) ON DELETE SET NULL,
                     InternshipTitle NVARCHAR(100) NOT NULL,
                     StartDate DATE NOT NULL,
@@ -265,12 +266,13 @@ namespace IMEAutomationDBOperations.Services
                                 LastName = reader.GetString(2),
                                 AcademicYear = reader.GetInt32(3),
                                 NationalID = reader.GetString(4),
-                                BirthDate = reader.GetDateTime(5).ToString("yyyy-MM-dd"),
+                                BirthDate = reader.GetDateTime(5),
                                 SchoolNumber = reader.GetString(6),
                                 Department = reader.GetString(7),
                                 PhoneNumber = reader.GetString(8),
                                 Email = reader.GetString(9),
-                                Address = reader.GetString(10)
+                                Address = reader.GetString(10),
+                                Password = "123456"
                             };
                             students.Add(student);
                         }
@@ -279,6 +281,93 @@ namespace IMEAutomationDBOperations.Services
             }
 
             return students;
+        }
+
+        public (InternshipSupervisor?, Company?, InternshipDetails?) GetSupervisorCompanyAndInternshipDetailsByStudentEmail(string studentEmail)
+        {
+            string query = @"
+            SELECT 
+                s.SupervisorID, s.FirstName, s.LastName, ISNULL(s.ContactPhone, '') AS ContactPhone, ISNULL(s.Expertise, '') AS Expertise,
+                c.CompanyID, c.CompanyName, c.TaxNumber, c.Address, c.PhoneNumber, c.Email,
+                ISNULL(c.Departments, '') AS Departments, ISNULL(c.Website, '') AS Website, ISNULL(c.Industry, '') AS Industry,
+                ISNULL(c.ManagerFirstName, '') AS ManagerFirstName, ISNULL(c.ManagerLastName, '') AS ManagerLastName,
+                ISNULL(c.ManagerPhone, '') AS ManagerPhone, ISNULL(c.ManagerEmail, '') AS ManagerEmail,
+                ISNULL(c.BankName, '') AS BankName, ISNULL(c.BankBranch, '') AS BankBranch, ISNULL(c.BankIbanNo, '') AS BankIbanNo,
+                i.InternshipID, i.StudentID, i.CompanyID, i.SupervisorID, i.InternshipTitle, 
+                i.StartDate, i.EndDate, i.TotalTrainingDays, i.LeaveDays, i.WorkDays, 
+                i.PaidAmount, i.CreatedAt, i.UpdatedAt
+            FROM Students st
+            INNER JOIN InternshipSupervisors s ON st.StudentID = s.StudentID
+            INNER JOIN Company c ON s.CompanyID = c.CompanyID
+            INNER JOIN InternshipDetails i ON st.StudentID = i.StudentID
+            WHERE st.Email = @StudentEmail";
+
+            using (var connection = new SqlConnection(_repository.ConnectionString))
+            {
+                connection.Open();
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@StudentEmail", studentEmail);
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            var supervisor = new InternshipSupervisor
+                            {
+                                SupervisorID = reader.IsDBNull(0) ? 0 : reader.GetInt32(0),
+                                FirstName = reader.GetString(1),
+                                LastName = reader.GetString(2),
+                                ContactPhone = reader.GetString(3),
+                                Expertise = reader.GetString(4)
+                            };
+
+                            var company = new Company
+                            {
+                                CompanyID = reader.IsDBNull(5) ? 0 : reader.GetInt32(5),
+                                CompanyName = reader.GetString(6),
+                                TaxNumber = reader.GetString(7),
+                                Address = reader.GetString(8),
+                                PhoneNumber = reader.GetString(9),
+                                Email = reader.GetString(10),
+                                Departments = reader.GetString(11),
+                                Website = reader.GetString(12),
+                                Industry = reader.GetString(13),
+                                ManagerFirstName = reader.GetString(14),
+                                ManagerLastName = reader.GetString(15),
+                                ManagerPhone = reader.GetString(16),
+                                ManagerEmail = reader.GetString(17),
+                                BankName = reader.GetString(18),
+                                BankBranch = reader.GetString(19),
+                                BankIbanNo = reader.GetString(20)
+                            };
+
+
+                            var internshipDetails = new InternshipDetails
+                            {
+                                InternshipID = reader.GetInt32(21),
+                                StudentID = reader.GetInt32(22),
+                                CompanyID = reader.GetInt32(23),
+                                SupervisorID = reader.IsDBNull(24) ? (int?)null : reader.GetInt32(24),
+                                InternshipTitle = reader.GetString(25),
+                                StartDate = reader.GetDateTime(26),
+                                EndDate = reader.GetDateTime(27),
+                                TotalTrainingDays = reader.GetInt32(28),
+                                LeaveDays = reader.GetInt32(29),
+                                WorkDays = reader.IsDBNull(30) ? string.Empty : reader.GetString(30),
+                                PaidAmount = reader.GetDecimal(31),
+                                CreatedAt = reader.GetDateTime(32),
+                                UpdatedAt = reader.GetDateTime(33)
+                            };
+
+                            return (supervisor, company, internshipDetails);
+                        }
+                    }
+                }
+            }
+
+            return (null, null, null);
+
         }
     }
 }

@@ -17,7 +17,6 @@ namespace IMEAutomationDBOperations.Services
         {
             _databaseService.CreateDatabase();
             _databaseService.CreateTables();
-            _databaseService.GetUsersData();
 
             while (!stoppingToken.IsCancellationRequested)
             {

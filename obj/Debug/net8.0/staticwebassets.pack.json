@@ -5,8 +5,44 @@
       "PackagePath": "staticwebassets\\img\\16.jpg"
     },
     {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\img\\Ekran görüntüsü 2025-04-09 180551.png",
+      "PackagePath": "staticwebassets\\img\\Ekran görüntüsü 2025-04-09 180551.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\img\\ktunlogo.png",
+      "PackagePath": "staticwebassets\\img\\ktunlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\img\\ktunlogores.png",
+      "PackagePath": "staticwebassets\\img\\ktunlogores.png"
+    },
+    {
       "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\img\\logo_2.ico",
       "PackagePath": "staticwebassets\\img\\logo_2.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\pdfs\\Belge1.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Belge1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\pdfs\\Belge2.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Belge2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\pdfs\\Belge3.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Belge3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\pdfs\\GenerateIMEBilgiFormu.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\GenerateIMEBilgiFormu.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\pdfs\\IMEBaşvuruFormu.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\IMEBaşvuruFormu.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\pdfs\\IMESozlesmeFormu.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\IMESozlesmeFormu.pdf"
     },
     {
       "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\scripts\\bootstrap\\bootstrap.bundle.js",
@@ -57,8 +93,8 @@
       "PackagePath": "staticwebassets\\scripts\\bootstrap\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\all.css",
-      "PackagePath": "staticwebassets\\styles\\all.css"
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\KonyaTecnicalUnivercity-IMEAutomation-ALL.css",
+      "PackagePath": "staticwebassets\\styles\\KonyaTecnicalUnivercity-IMEAutomation-ALL.css"
     },
     {
       "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\bootstrap\\bootstrap-grid.css",
@@ -189,316 +225,16 @@
       "PackagePath": "staticwebassets\\styles\\bootstrap\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\css\\styles.css",
-      "PackagePath": "staticwebassets\\styles\\custom\\css\\styles.css"
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\css\\KTUN-StudentLogin.css",
+      "PackagePath": "staticwebassets\\styles\\custom\\css\\KTUN-StudentLogin.css"
     },
     {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_alert.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_alert.scss"
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\css\\KTUN-StudentPage.css",
+      "PackagePath": "staticwebassets\\styles\\custom\\css\\KTUN-StudentPage.css"
     },
     {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_badge.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_badge.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_breadcrumb.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_breadcrumb.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_button-group.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_button-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_buttons.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_card.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_card.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_carousel.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_carousel.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_close.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_close.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_code.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_code.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_costom-forms.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_costom-forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_dropdown.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_dropdown.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_forms.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_grid.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_grid.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_images.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_images.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_input-group.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_input-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_jumbotron.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_jumbotron.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_list-group.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_list-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_media.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_media.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_modal.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_modal.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_nav.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_nav.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_navbar.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_navbar.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_pagination.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_pagination.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_popover.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_popover.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_print.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_print.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_progress.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_progress.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_reboot.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_reboot.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_root.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_root.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_spinners.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_spinners.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_tables.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_tables.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_toasts.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_toasts.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_tooltip.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_tooltip.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_transitions.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_transitions.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\_type.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\_type.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\bootstrap.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\bootstrap.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_alert.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_alert.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_background-variant.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_background-variant.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_badge.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_badge.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_border-radius,scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_breakpoints.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_breakpoints.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_buttons.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_caret.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_caret.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_clearfix.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_forms.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_grad-framework.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_grad-framework.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_gradients.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_gradients.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_grid.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_grid.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_hover.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_hover.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_image.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_image.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_list-group.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_list-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_lists.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_lists.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_nav-divider.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_nav-divider.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_paginattion.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_paginattion.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_reset-text.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_reset-text.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_screen-reader.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_screen-reader.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_table-row.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_table-row.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_text-emphasis.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_text-emphasis.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_text-hide.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_text-hide.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_text-truncate.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_text-truncate.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\mixins\\_transition.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\mixins\\_transition.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_align.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_align.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_background.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_background.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_borders.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_borders.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_display.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_display.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_embed.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_embed.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_flex.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_flex.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_float.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_float.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_interactions.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_interactions.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_overflow.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_overflow.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_position.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_position.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_screenreaders.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_screenreaders.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_shadows.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_shadows.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_sizing.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_sizing.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_spacing.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_spacing.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_stretchet-link.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_stretchet-link.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_text.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_text.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\utilities\\_visibility.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\utilities\\_visibility.scss"
-    },
-    {
-      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\scss\\vendor\\rfs.scss",
-      "PackagePath": "staticwebassets\\styles\\custom\\scss\\vendor\\rfs.scss"
+      "Id": "C:\\Users\\Ahmet's Monster\\Desktop\\KonyaTeknikÜniversitesi-IMEOtomasyonu\\wwwroot\\styles\\custom\\css\\KonyaTecnicalUnivercity-IMEAutomation.css",
+      "PackagePath": "staticwebassets\\styles\\custom\\css\\KonyaTecnicalUnivercity-IMEAutomation.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KonyaTeknikÜniversitesi-IMEOtomasyonu.Microsoft.AspNetCore.StaticWebAssets.props",

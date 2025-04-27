@@ -36,42 +36,5 @@ namespace IMEAutomationDBOperations.Data
                 }
             }
         }
-
-        public void GetUsersData()
-        {
-            string query = "SELECT * FROM Users";
-            using (var conn = new SqlConnection(ConnectionString))
-            {
-                conn.Open();
-                SqlCommand command = new SqlCommand(query, conn);
-                using (SqlDataReader reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        Console.WriteLine($"UserID: {reader["UserID"]}, UserName: {reader["UserName"]}");
-                    }
-                }
-            }
-        }
-
-        public void GetStudentsData()
-        {
-            string query = "SELECT * FROM Students";
-            using (var conn = new SqlConnection(ConnectionString))
-            {
-                conn.Open();
-                SqlCommand command = new SqlCommand(query, conn);
-                using (SqlDataReader reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        Console.WriteLine($"UserID: {reader["UserID"]}, FirstName: {reader["FirstName"]} " +
-                        $"LastName: {reader["LastName"]} AcademicYear: {reader["AcademicYear"]} NationalID: {reader["NationalID"]} " +
-                        $"BirthDate: {reader["BirthDate"]} SchoolNumber: {reader["SchoolNumber"]} Department: {reader["Department"]} " +
-                        $"PhoneNumber: {reader["PhoneNumber"]} Email: {reader["Email"]} Address: {reader["Address"]}");
-                    }
-                }
-            }
-        }
     }
 }

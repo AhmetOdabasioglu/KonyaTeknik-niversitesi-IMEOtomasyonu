@@ -4,7 +4,5 @@ namespace IMEAutomationDBOperations.Data
     {
         string ConnectionString { get; }
         void ExecuteQuery(string query);
-        void GetUsersData();
-        void GetStudentsData();
     }
 }
